@@ -146,38 +146,52 @@
 
         </div>
 
+        <section class="shadow rounded p-5 bg-light">
+          <!-- Alert box to display status messages -->
+          <div id="alert-status" class="alert d-none" role="alert" aria-live="polite"></div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form"
-          data-recaptcha-site-key="6LfD1xQrAAAAAJOSDYPVIcYIHd06YUsNWFZoH5B7" data-aos="fade-up" data-aos-delay="600">
-
-          <div class="row gy-4">
-
-            <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+          <!-- Contact Form -->
+          <form method="post" class="needs-validation" novalidate autocomplete="off">
+            <!-- Name Field -->
+            <div class="mb-3">
+              <label for="name" class="form-label fs-5">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required autocomplete="name" />
+              <div class="valid-feedback">Looks good !</div>
+              <div class="invalid-feedback">Please enter your name.</div>
             </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            <!-- Email Field -->
+            <div class="mb-3">
+              <label for="email" class="form-label fs-5">E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" required autocomplete="email" />
+              <div class="form-text">Make sure to provide a valid email address.</div>
+              <div class="valid-feedback">Looks good !</div>
+              <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
 
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            <!-- Message Field -->
+            <div class="mb-4">
+              <label for="message" class="form-label fs-5">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required
+                autocomplete="off"></textarea>
+              <div class="valid-feedback">Looks good !</div>
+              <div class="invalid-feedback">Please enter your message.</div>
             </div>
 
-            <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            <!-- Honeypot Field to trap spam bots (hidden to users) -->
+            <div class="d-none">
+              <label for="website">Website</label>
+              <input type="text" name="website" tabindex="-1" autocomplete="off" />
             </div>
 
-            <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
-            </div>
-
-          </div>
-        </form><!-- End Contact Form -->
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary px-5">
+              <span id="loading-spinner" class="spinner-border spinner-border-sm me-2 d-none" role="status"
+                aria-hidden="true"></span>
+              <span>Submit</span>
+            </button>
+          </form>
+        </section>
 
       </div>
 
@@ -241,6 +255,10 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <!-- Custom JS handling AJAX form submission -->
+  <script src="AjaxForm.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

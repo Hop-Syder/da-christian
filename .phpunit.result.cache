@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"ContactFormTest::testHelloWorld":0.144,"ContactFormTest::testEmailAddressIsValid":0.234}}
+{"version":1,"defects":{"ContactFormTest::testFormDataProcessingAndEmailSending":7},"times":{"ContactFormTest::testHelloWorld":0.144,"ContactFormTest::testEmailAddressIsValid":0.234,"ContactFormTest::testFormDataProcessingAndEmailSending":0.169}}

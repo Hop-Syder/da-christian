@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -71,10 +71,9 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Portfolio</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas
-                consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit
-                quaerat ipsum dolorem.</p>
+              <h1>Mon Portfolio</h1>
+              <p class="mb-0">Découvrez mes projets dans différents domaines : développement web, électricité et data
+                science.</p>
             </div>
           </div>
         </div>
@@ -91,206 +90,152 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-
       <div class="container">
-
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter="*" class="filter-active"><i class="fa fa-star me-2"></i>Tous</li>
+            <li data-filter=".filter-webdev"><i class="fa fa-code me-2"></i>Développement Web</li>
+            <li data-filter=".filter-electricity"><i class="fa fa-bolt me-2"></i>Électricité</li>
+            <li data-filter=".filter-datascience"><i class="fa fa-brain me-2"></i>Data Science</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-1.webp" class="img-fluid" alt="">
+            <!-- Projets Développement Web -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-webdev">
+              <div class="portfolio-content h-100" style="aspect-ratio: 1 / 1; overflow: hidden;">
+                <img src="assets/img/web1.jpg" class="img-fluid" alt="Site Portfolio"
+                  style="object-fit: cover; width: 100%; height: 100%;">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-1.webp" title="App 1" data-gallery="portfolio-gallery-app"
+                  <h4>Site Portfolio</h4>
+                  <p>Projet de développement web personnel</p>
+                  <a href="assets/img/web1.jpg" title="Site Portfolio" data-gallery="portfolio-gallery-web"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/Hop-Syder/mycv" target="_blank" title="Voir sur GitHub"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-webdev">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-10.webp" class="img-fluid" alt="">
+                <img src="assets/img/web2.jpg" class="img-fluid" alt="Site Vitrine Entreprise">
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-10.webp" title="Product 1"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-7.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-7.webp" title="Branding 1"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-4.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-4.webp" title="Branding 1"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-2.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-2.webp" title="App 2" data-gallery="portfolio-gallery-app"
+                  <h4>Site Vitrine Entreprise</h4>
+                  <p>Projet de développement web professionnel</p>
+                  <a href="assets/img/web2.jpg" title="Site Vitrine Entreprise" data-gallery="portfolio-gallery-web"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/IsmaelAbassi/web-project2" target="_blank" title="Voir sur GitHub"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-webdev">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-11.webp" class="img-fluid" alt="">
+                <img src="assets/img/web3.jpg" class="img-fluid" alt="Boutique e-commerce">
                 <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-11.webp" title="Product 2"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-8.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-8.webp" title="Branding 2"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-5.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-5.webp" title="Branding 2"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-3.webp" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-3.webp" title="App 3" data-gallery="portfolio-gallery-app"
+                  <h4>Boutique e-commerce</h4>
+                  <p>Projet de développement e-commerce</p>
+                  <a href="assets/img/web3.jpg" title="Boutique e-commerce" data-gallery="portfolio-gallery-web"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
+                  <a href="https://github.com/IsmaelAbassi/web-project2" target="_blank" title="Voir sur GitHub"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <!-- Projets Électricité -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-electricity">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-12.webp" class="img-fluid" alt="">
+                <img src="assets/img/elec5.jpg" class="img-fluid" alt="Plan Electrique Industrielle">
                 <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-12.webp" title="Product 3"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                  <h4>Plan Electrique Industrielle</h4>
+                  <p>Projet d'électricité industrielle</p>
+                  <a href="assets/img/elec5.jpg" title="Plan Electrique Industrielle"
+                    data-gallery="portfolio-gallery-electricity" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-electricity">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-9.webp" class="img-fluid" alt="">
+                <img src="assets/img/elec15.jpg" class="img-fluid" alt="Automatisation Industrielle">
                 <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-9.webp" title="Branding 2"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                  <h4>Automatisation Industrielle</h4>
+                  <p>Projet d'automatisation industrielle</p>
+                  <a href="assets/img/elec15.jpg" title="Automatisation Industrielle"
+                    data-gallery="portfolio-gallery-electricity" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+            <!-- Projets Data Science -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/portfolio-6.webp" class="img-fluid" alt="">
+                <img src="assets/img/wiiru.jpg" class="img-fluid" alt="Wiirù">
                 <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/portfolio-6.webp" title="Branding 3"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
+                  <h4>Wiirù</h4>
+                  <p>Projet de data science</p>
+                  <a href="assets/img/wiiru.jpg" title="Wiirù" data-gallery="portfolio-gallery-datascience"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/IsmaelAbassi/datascience-project1" target="_blank" title="Voir sur GitHub"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-datascience">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/iaminds.jpg" class="img-fluid" alt="IAMINDS">
+                <div class="portfolio-info">
+                  <h4>IAMINDS</h4>
+                  <p>Projet de hackathon AI multimodal</p>
+                  <a href="assets/img/iaminds.jpg" title="IAMINDS" data-gallery="portfolio-gallery-datascience"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://lablab.ai/event/benin-multimodal-ai-hackathon/iaminds/aiminds-subtitle-app"
+                    target="_blank" title="Voir sur Lablab.ai" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
           </div><!-- End Portfolio Container -->
-
         </div>
-
       </div>
-
     </section><!-- /Portfolio Section -->
 
+    <!-- Footer Section -->
+    <footer id="footer" class="footer dark-background">
+      <div class="container">
+        <h3 class="sitename">Mon Portfolio</h3>
+        <p>
+          Bienvenue sur mon portfolio ! Je suis passionné par le développement web, l'électricité industrielle, et les
+          systèmes embarqués.
+          Ce site présente mes projets, mes compétences et mon parcours professionnel. Explorez mon travail et découvrez
+          comment je peux
+          contribuer à vos projets innovants.
+        </p>
+        <div class="social-links d-flex justify-content-center">
+          <!-- Lien Twitter -->
+          <a href="https://x.com/IsmaelAbassi1" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          <!-- Lien Facebook -->
+          <a href="https://www.facebook.com/hopsyder.daouda.12062/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <!-- Lien Instagram -->
+          <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+          <!-- Lien LinkedIn -->
+          <a href="https://www.linkedin.com/in/ismael122" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span> <strong class="px-1 sitename">Mon Portfolio</strong> <span>All Rights Reserved</span>
+          </div>
+          <div class="credits">
+            Designed by <a href="">Nexus Partners</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
   </main>
 
   <!-- Scroll Top -->
